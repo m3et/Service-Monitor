@@ -21,10 +21,10 @@ def list_of_process():
             processCreationTime = datetime.datetime.fromtimestamp(process.create_time()).strftime("%Y-%m-%d %H:%M:%S")
             processCpuPercentage = process.cpu_percent()
             processMemoryPercentage = process.cpu_percent()
-            output += processName + ' ::: ' + str(processID) + ' ::: ' + str(processCreationTime) + ' ::: ' + str(processCpuPercentage) + ' ::: ' + str(processMemoryPercentage) + '\n'
+            output += str(processID) + ' ::: '+ processName + ' ::: ' + str(processCreationTime) + ' ::: ' + str(processCpuPercentage) + ' ::: ' + str(processMemoryPercentage) + '\n'
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
-    output = 'processName | processID | processCreationTime | processCpuPercentage | processMemoryPercentage\n' + output
+    output = ' processID | processName | processCreationTime | CpuUsagePercentage | MemoryUsagePercentage\n' + output
     # print(output)
     return output
 
