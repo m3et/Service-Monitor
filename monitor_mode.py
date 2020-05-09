@@ -1,32 +1,28 @@
-import threading
+import time
 import log_thread
-import logs
-
-serviceList = 'serviceList.txt'
-statusLog = 'statusLog.txt'
-
-WAIT_TIME_SECONDS = 2
+import manuel_mode
 
 
+def monitor_mode():
+    interval = ask_for_time()
+    thread = log_thread.ThreadingLog(interval)
+    print("Monitor mode is running in background,type '2' to go into Manuel mode ,type '0' to close at anytime\n")
+    while True:
+        res = input('\n')
+        if res == '0':
+            print("exit program")
+            return
+        elif res == '2':
+            thread.stop_print()
+            manuel_mode.manuel_mode()
+            thread.resume_print()
 
-
-
-def updates_log():
-    up
-
-
-
-
-ticker = threading.Event()
-while not ticker.wait(WAIT_TIME_SECONDS):
-    updates_log()
-
-print("fuck you")
+        time.sleep(interval)
 
 
 def ask_for_time():
-    return int(input("Enter desire second between samples"))
+    return int(input("Enter desire second between samples\n"))
 
 
 if __name__ == "__main__":
-    updates_log()
+    monitor_mode()

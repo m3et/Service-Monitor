@@ -26,6 +26,7 @@ class ThreadingLog(object):
         self.process_born_dict = {}
         self.process_dead_dict = {}
         self.counter = 0
+        self.print = True
 
         thread = threading.Thread(target=self.run, args=())
         thread.daemon = True  # Demonize thread
@@ -43,7 +44,8 @@ class ThreadingLog(object):
             if self.counter != 0:
                 self.diff()
                 statusLog_log = self.statusLog_str()
-                print(statusLog_log)
+                if self.print:
+                    print(statusLog_log)
                 logs.print_to_statusLog(statusLog_log)
 
             self.counter += 1
@@ -62,11 +64,24 @@ class ThreadingLog(object):
 
     def statusLog_str(self):
         output = time_now() + '\n'
-        output += 'New Process:\n'
-        output += str(self.process_born_dict) + '\n'
-        output += 'Dead Process:\n'
-        output += str(self.process_dead_dict) + '\n'
+        output += 'New Process in system: '
+        if len(self.process_born_dict) == 0:
+            output += 'No new process\n'
+        else:
+            output += str(self.process_born_dict) + '\n'
+
+        output += 'closed Process in system: '
+        if len(self.process_dead_dict) == 0:
+            output += 'No closed process\n'
+        else:
+            output += str(self.process_dead_dict) + '\n'
         return output
+
+    def stop_print(self):
+        self.print = False
+
+    def resume_print(self):
+        self.print = True
 
 
 if __name__ == "__main__":
