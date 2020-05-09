@@ -1,14 +1,19 @@
 import os
 from os import path
-import datetime
-
-serviceList = 'serviceList.txt'
-statusLog = 'statusLog.txt'
 
 
-def print_to_log(file_name, line):
+def print_to_serviceList(line):
+    __print_to_log('Logs/serviceList.txt', line)
+
+
+def print_to_statusLog(line):
+    __print_to_log('Logs/statusLog.txt', line)
+
+
+# This function write to the top of a given log file a given input
+def __print_to_log(file_name, line):
     if not path.exists(file_name):
-        append_print_to_log(file_name, line)
+        __append_print_to_log(file_name, line)
 
     """ Insert given string as a new line at the beginning of a file """
     # define name of temporary dummy file
@@ -24,28 +29,15 @@ def print_to_log(file_name, line):
     os.remove(file_name)
     # Rename dummy file as the original file
     os.rename(dummy_file, file_name)
-
+    # close the files
     read_obj.close()
     write_obj.close()
 
 
-def append_print_to_log(file_name, line):
+# This function append to a given log file a given input
+def __append_print_to_log(file_name, line):
     with open(file_name, 'a') as write_obj:
         write_obj.write(line + '\n')
     write_obj.close()
 
 
-def add_timestamp(line):
-    timestamp = '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~' + datetime.datetime.now().strftime(
-        "%Y-%m-%d %H:%M:%S") + '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-    line = timestamp + '\n' + line
-    return line
-
-
-if __name__ == "__main__":
-    import services
-
-    for i in range(3):
-        proc = services.list_of_process()
-        proc = add_timestamp(proc)
-        print_to_log(serviceList, proc)

@@ -1,0 +1,198 @@
+2020-05-09 13:49:19
+New Process:
+{}
+Dead Process:
+{21908: 'backgroundTaskHost.exe', 21060: 'backgroundTaskHost.exe'}
+
+2020-05-09 13:49:13
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:49:08
+New Process:
+{10208: 'SearchFilterHost.exe'}
+Dead Process:
+{}
+
+2020-05-09 13:46:03
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:45:58
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:45:52
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:45:47
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:45:41
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:45:36
+New Process:
+{"11212": "SearchFilterHost.exe", "8772": "SearchProtocolHost.exe"}
+Dead Process:
+{}
+
+2020-05-09 13:41:21
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:41:16
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:41:10
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:41:05
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:40:59
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:40:53
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:40:48
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:40:42
+New Process:
+{}
+Dead Process:
+{"11356": "svchost.exe"}
+
+2020-05-09 13:40:37
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:40:31
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-09 13:40:26
+New Process:
+{"9148": "SearchFilterHost.exe", "24340": "SearchProtocolHost.exe"}
+Dead Process:
+{"16388": "RuntimeBroker.exe"}
+
+2020-05-08 19:49:26
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:49:20
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:49:15
+New Process:
+{"3752": "svchost.exe"}
+Dead Process:
+{"15456": "backgroundTaskHost.exe", "1272": "backgroundTaskHost.exe", "17584": "svchost.exe"}
+
+2020-05-08 19:49:09
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:49:04
+New Process:
+{}
+Dead Process:
+{"22596": "backgroundTaskHost.exe"}
+
+2020-05-08 19:48:58
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:48:53
+New Process:
+{}
+Dead Process:
+{"12036": "Spotify.exe", "12140": "Spotify.exe", "6872": "Spotify.exe", "13684": "Spotify.exe", "1240": "Spotify.exe"}
+
+2020-05-08 19:48:47
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:48:42
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:48:36
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:48:31
+New Process:
+{}
+Dead Process:
+{}
+
+2020-05-08 19:41:44
+New Process:
+{}Dead Process:
+{}
+2020-05-08 19:41:42
+New Process:
+{}Dead Process:
+{}
+2020-05-08 19:41:41
+New Process:
+{}Dead Process:
+{}
