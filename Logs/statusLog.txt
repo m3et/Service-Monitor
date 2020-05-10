@@ -1,3 +1,235 @@
+2020-05-11 01:09:53
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 01:09:47
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 01:09:41
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 01:09:36
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 01:08:08
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 01:08:03
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 01:07:57
+New Process in system: {14428: 'SearchFilterHost.exe'}
+closed Process in system: No closed process
+
+2020-05-11 01:07:52
+New Process in system: No new process
+closed Process in system: {5364: 'SearchFilterHost.exe'}
+
+2020-05-11 01:07:46
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:57:05
+New Process in system: No new process
+closed Process in system: {16212: 'SearchProtocolHost.exe'}
+
+2020-05-10 23:56:59
+New Process in system: {25912: 'svchost.exe', 21700: 'RuntimeBroker.exe', 7888: 'backgroundTaskHost.exe'}
+closed Process in system: No closed process
+
+2020-05-10 23:56:54
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:56:48
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:56:42
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:56:37
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:56:31
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:56:26
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 23:56:20
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:04:08
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:03:53
+New Process in system: {19512: 'backgroundTaskHost.exe', 412: 'RuntimeBroker.exe', 23372: 'backgroundTaskHost.exe'}
+closed Process in system: No closed process
+
+2020-05-10 18:03:37
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:03:22
+New Process in system: {23480: 'SearchFilterHost.exe'}
+closed Process in system: {7624: 'SearchFilterHost.exe'}
+
+2020-05-10 18:03:06
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:02:50
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:02:35
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:02:19
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:02:03
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:01:48
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:01:32
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:01:04
+New Process in system: {7624: 'SearchFilterHost.exe'}
+closed Process in system: {7376: 'svchost.exe', 7064: 'SearchFilterHost.exe'}
+
+2020-05-10 18:00:49
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:00:33
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:00:17
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 18:00:02
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:59:46
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:59:30
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:59:14
+New Process in system: {7064: 'SearchFilterHost.exe'}
+closed Process in system: {25564: 'RuntimeBroker.exe'}
+
+2020-05-10 17:57:59
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:53
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:47
+New Process in system: {25564: 'RuntimeBroker.exe', 13500: 'backgroundTaskHost.exe'}
+closed Process in system: {2408: 'backgroundTaskHost.exe'}
+
+2020-05-10 17:57:42
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:36
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:31
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:25
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:19
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:14
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:57:08
+New Process in system: {7476: 'SearchProtocolHost.exe'}
+closed Process in system: {16928: 'backgroundTaskHost.exe'}
+
+2020-05-10 17:57:02
+New Process in system: No new process
+closed Process in system: {16560: 'SearchProtocolHost.exe'}
+
+2020-05-10 17:56:56
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:56:51
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:56:45
+New Process in system: {2408: 'backgroundTaskHost.exe', 22312: 'RuntimeBroker.exe', 5920: 'svchost.exe'}
+closed Process in system: No closed process
+
+2020-05-10 17:56:39
+New Process in system: {25372: 'SearchFilterHost.exe'}
+closed Process in system: {9724: 'SearchFilterHost.exe'}
+
+2020-05-10 17:56:34
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:46:40
+New Process in system: No new process
+closed Process in system: {16048: 'svchost.exe'}
+
+2020-05-10 17:46:31
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:46:22
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:46:14
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-10 17:34:01
+New Process in system: {14552: 'SearchFilterHost.exe', 17992: 'SearchProtocolHost.exe'}
+closed Process in system: {4188: 'svchost.exe'}
+
 2020-05-10 00:42:52
 New Process in system: {3324: 'RuntimeBroker.exe', 17756: 'backgroundTaskHost.exe'}
 closed Process in system: {25640: 'backgroundTaskHost.exe'}

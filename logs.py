@@ -1,13 +1,35 @@
 import os
 from os import path
 
+from log_security import hashFile, checkSum
+
+service_checksum = hashFile('Logs/serviceList.txt')
+log_checksum = hashFile('Logs/statusLog.txt')
+
+
+def update_hashfile():
+    global service_checksum
+    global log_checksum
+    service_checksum = hashFile('Logs/serviceList.txt')
+    log_checksum = hashFile('Logs/statusLog.txt')
+
 
 def print_to_serviceList(line):
-    __print_to_log('Logs/serviceList.txt', line)
+    file_path = 'Logs/serviceList.txt'
+    if checkSum(file_path,service_checksum):
+        __print_to_log(file_path, line)
+        update_hashfile()
+    else:
+        raise ValueError('Log file' + file_path + 'was touched')
 
 
 def print_to_statusLog(line):
-    __print_to_log('Logs/statusLog.txt', line)
+    file_path = 'Logs/statusLog.txt'
+    if checkSum(file_path, log_checksum):
+        __print_to_log(file_path, line)
+        update_hashfile()
+    else:
+        raise ValueError('Log file' + file_path + 'was touched')
 
 
 # This function write to the top of a given log file a given input
@@ -39,5 +61,3 @@ def __append_print_to_log(file_name, line):
     with open(file_name, 'a') as write_obj:
         write_obj.write(line + '\n')
     write_obj.close()
-
-
