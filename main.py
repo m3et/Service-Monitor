@@ -1,5 +1,6 @@
 import monitor_mode
 import manuel_mode
+
 if __name__ == "__main__":
     # ascii art 'process monitor'
     print("""\

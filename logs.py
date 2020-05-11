@@ -7,7 +7,7 @@ service_checksum = hashFile('Logs/serviceList.txt')
 log_checksum = hashFile('Logs/statusLog.txt')
 
 
-def update_hashfile():
+def update_hash():
     global service_checksum
     global log_checksum
     service_checksum = hashFile('Logs/serviceList.txt')
@@ -18,7 +18,7 @@ def print_to_serviceList(line):
     file_path = 'Logs/serviceList.txt'
     if checkSum(file_path,service_checksum):
         __print_to_log(file_path, line)
-        update_hashfile()
+        update_hash()
     else:
         raise ValueError('Log file' + file_path + 'was touched')
 
@@ -27,7 +27,7 @@ def print_to_statusLog(line):
     file_path = 'Logs/statusLog.txt'
     if checkSum(file_path, log_checksum):
         __print_to_log(file_path, line)
-        update_hashfile()
+        update_hash()
     else:
         raise ValueError('Log file' + file_path + 'was touched')
 

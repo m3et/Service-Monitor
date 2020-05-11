@@ -17,7 +17,7 @@ def monitor_mode():
             manuel_mode.manuel_mode()
             thread.resume_print()
 
-        time.sleep(interval)
+        # time.sleep(secs=3)
 
 
 def ask_for_time():

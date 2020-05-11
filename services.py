@@ -18,11 +18,11 @@ def services_linux():
     return service_dict
 
 
+def processes_dict():
+    process_dict = {p.pid: p.info for p in psutil.process_iter(['name'])}
+    process_dict = {key: process_dict.get(key).get('name') for key in process_dict}
+    return process_dict
 
-#
-# process_dict = {p.pid: p.info for p in psutil.process_iter(['name'])}
-#  process_dict = {key: process_dict.get(key).get('name') for key in process_dict}
-#  return process_dict
 
 def services_win():
     service_dict = [s for s in psutil.win_service_iter()]
