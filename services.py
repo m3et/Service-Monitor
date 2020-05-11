@@ -1,4 +1,5 @@
 import subprocess
+from builtins import print
 
 import psutil
 from platform import system
@@ -7,13 +8,26 @@ from platform import system
 # This function retrieve all running processes in sys in
 def services_linux():
     output = subprocess.check_output(["service", "--status-all"])
-    print(output)
+    service_list = list()
+    for line in output.split('\n'.encode(encoding='UTF-8')):
+        string = str(line)
+        service_name = string[10:- 1]
+        service_list.append(service_name)
 
+    service_dict = {p.pid: p.name() for p in psutil.process_iter(['name']) if p.info['name'] in service_list}
+    return service_dict
+
+
+
+#
+# process_dict = {p.pid: p.info for p in psutil.process_iter(['name'])}
+#  process_dict = {key: process_dict.get(key).get('name') for key in process_dict}
+#  return process_dict
 
 def services_win():
-    process_dict = [s for s in psutil.win_service_iter()]
-    process_dict = {s.pid(): s.name() for s in process_dict}
-    return process_dict
+    service_dict = [s for s in psutil.win_service_iter()]
+    service_dict = {s.pid(): s.name() for s in service_dict}
+    return service_dict
 
 
 def get_dict_of_process():
