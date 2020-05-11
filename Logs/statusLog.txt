@@ -1,3 +1,275 @@
+2020-05-11 20:43:40
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:43:24
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:43:09
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:42:54
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:42:39
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:42:24
+New Process in system: {23056: 'ClipSVC'}
+closed Process in system: No closed process
+
+2020-05-11 20:42:09
+New Process in system: No new process
+closed Process in system: {22180: 'ClipSVC'}
+
+2020-05-11 20:41:54
+New Process in system: {17784: 'wlidsvc'}
+closed Process in system: No closed process
+
+2020-05-11 20:41:38
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:41:23
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:41:08
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:40:53
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:40:38
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:40:23
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:40:08
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:39:52
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:39:37
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:39:22
+New Process in system: {24116: 'wuauserv'}
+closed Process in system: No closed process
+
+2020-05-11 20:39:07
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:38:52
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:38:37
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:38:22
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:38:06
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:37:51
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:37:36
+New Process in system: {23460: 'MySQL80'}
+closed Process in system: No closed process
+
+2020-05-11 20:37:21
+New Process in system: No new process
+closed Process in system: {4660: 'MySQL80'}
+
+2020-05-11 20:37:06
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:36:51
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:36:36
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:36:21
+New Process in system: No new process
+closed Process in system: {1060: 'wuauserv'}
+
+2020-05-11 20:36:05
+New Process in system: {1060: 'wuauserv'}
+closed Process in system: No closed process
+
+2020-05-11 20:35:50
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:35:35
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:35:20
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:35:05
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:34:50
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:34:35
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:34:20
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:34:04
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:33:49
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:33:34
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:33:19
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:33:04
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:32:49
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:32:34
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:31:07
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:31:04
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:31:00
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:57
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:54
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:51
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:48
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:45
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:42
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:38
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:35
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:32
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:29
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:26
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:23
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:20
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:16
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:13
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:10
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:07
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:04
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:30:01
+New Process in system: No new process
+closed Process in system: No closed process
+
+2020-05-11 20:29:57
+New Process in system: No new process
+closed Process in system: No closed process
+
 2020-05-11 01:09:53
 New Process in system: No new process
 closed Process in system: No closed process
